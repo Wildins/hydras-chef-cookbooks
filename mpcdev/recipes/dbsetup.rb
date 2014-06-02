@@ -8,7 +8,7 @@ node[:deploy].each do |app_name, deploy|
     if platform?("ubuntu")
       owner "www-data"
     elsif platform?("amazon")   
-      owner "apache"
+      owner "deploy"
     end
 
     variables(
