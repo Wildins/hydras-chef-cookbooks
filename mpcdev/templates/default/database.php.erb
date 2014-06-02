@@ -48,22 +48,6 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['ec2']['hostname'] = 'mpc-api.c6oksb2ul0kc.us-west-1.rds.amazonaws.com';
-$db['ec2']['username'] = 'root';
-$db['ec2']['password'] = 'glggroup';
-$db['ec2']['database'] = 'mpc_api';
-$db['ec2']['dbdriver'] = 'mysqli';
-$db['ec2']['dbprefix'] = '';
-$db['ec2']['pconnect'] = TRUE;
-$db['ec2']['db_debug'] = TRUE;
-$db['ec2']['cache_on'] = FALSE;
-$db['ec2']['cachedir'] = '';
-$db['ec2']['char_set'] = 'utf8';
-$db['ec2']['dbcollat'] = 'utf8_general_ci';
-$db['ec2']['swap_pre'] = '';
-$db['ec2']['autoinit'] = TRUE;
-$db['ec2']['stricton'] = FALSE;
-
 $db['default']['hostname'] = '<%= @host%>';
 $db['default']['username'] = '<%= @user%>';
 $db['default']['password'] = '<%= @password%>';
@@ -79,7 +63,6 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */[ec2-user@php-app1 config]$ 
