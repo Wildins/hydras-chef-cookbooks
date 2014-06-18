@@ -1,0 +1,13 @@
+<?
+
+$db_host = '<%= @host%>';
+$db_user = '<%= @user%>';
+$db_pwd = '<%= @password%>';
+$db_name = '<%= @db%>';
+
+
+$db_link = mysql_connect($db_host,$db_user,$db_pwd);
+mysql_select_db($db_name,$db_link);
+print mysql_error();
+
+?>
